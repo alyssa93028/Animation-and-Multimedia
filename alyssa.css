@@ -1,0 +1,102 @@
+html{
+  font-family: 'Times New Roman', Times, serifs;
+
+}
+/* menu parts */
+main{
+    background-color: bisque;
+    height: 90%;
+    margin-top: 0;
+}
+.menus {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #BC927D;
+}
+.menus li a {
+  float: right;
+}
+.menus li label {
+  float: left !important;
+}
+.menus li a, .menus li label {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+  font-size: 20PX;
+}
+.menus li a:hover {
+  background-color:#DEDBD1;
+  color: black;
+}
+
+/* body parts */
+body{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.block-bg-img{
+  background-image: url("https://images.pexels.com/photos/56759/pexels-photo-56759.jpeg?cs=srgb&dl=pexels-caio-56759.jpg&fm=jpg") ; 
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 0;
+}
+.main-text{
+  text-align: center;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 200px;
+  padding-bottom: 450px;
+}
+.multimedia-font-style{
+  font-size: 100px;
+}
+#topic{
+  padding: 30px 100px;
+  font-size: 30px;
+}
+/* footer part */
+footer{
+    background-color:#9E5E4D;
+    text-align: right;
+    height: 150px;
+    width: 100%;
+    color: white;
+}
+.act-contact-title{
+    margin-top: 25px;
+    text-align:center;
+}
+.back-to-top a:hover{
+margin: 0;
+color: black;
+}
+
+/* extra class */
+
+.text-center,.footer-contact{
+  margin: 0;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
